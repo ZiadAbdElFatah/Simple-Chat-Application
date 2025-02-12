@@ -1,6 +1,6 @@
 # Simple Chat Application
 This is a simple chat application built using Java. It consists of a **client** and a **server** that allow multiple users to communicate in real-time. The server handles incoming connections and broadcasts messages to all connected clients, while the client provides a user-friendly interface for sending and receiving messages.
-- - - -
+
 
 ## Features ##
 * **Real-time messaging**: Send and receive messages instantly.
@@ -10,12 +10,12 @@ This is a simple chat application built using Java. It consists of a **client** 
 * **Simple GUI**: The client has an easy-to-use graphical interface.
 
 * **Java NIO**: Uses Java's Non-blocking I/O (NIO) for efficient communication.
-- - - -
+
 ## Project Structure ##
 * **SimpleChatClient.java**: The client-side application. It connects to the server and provides a GUI for sending and receiving messages.
 
 * **SimpleChatServer.java**: The server-side application. It accepts client connections and broadcasts messages to all connected clients.
-----
+
 ## Code Overview
 #### Client (SimpleChatClient.java)
 * **GUI**: Built using JFrame, JTextArea, and JTextField.
@@ -30,3 +30,4 @@ This is a simple chat application built using Java. It consists of a **client** 
 * **Client Handling**: Each client is handled by a ClientHandler thread, which reads messages and broadcasts them to all clients.
 
 * **Broadcasting**: Uses the tellEveryone method to send messages to all connected clients.
+---
